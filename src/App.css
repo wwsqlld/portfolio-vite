@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+  }
+  
+  img {
+    -webkit-user-select: none; /* для Webkit-браузеров (Chrome, Safari) */
+    -moz-user-select: none; /* для браузеров на основе Gecko (Firefox) */
+    -ms-user-select: none; /* для Internet Explorer */
+    user-select: none; /* стандартное свойство */
+  }
+
+  p {
+    margin: 0;
+  }
+
+
+  .hr-line {
+    width: 80vw;
+    height: 1px;
+    background-color: #b4b4b4;
+  }
+
+
+
+.navbar {
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+
+
+
+.logo-cont {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+    gap: 7px;
+}
+
+
+.nav-cont {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 50px;
+}
+
+.nav-btn {
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    color: black;
+    font-size: 23px;
+}
+
+.active {
+    color: #3e83fb;
+    transition: 0.3s ease-in;
+}
+
+.nav-btn p {
+    margin: 0;
+}
+
+.nav-btn:hover {
+  color: #939393;
+  transition: 0.3s ease-out ;
+}
+
+#logo-txt {
+    font-size: 30px;
+    color: black;
+    user-select: none;
+}
+
+/* Home-page */
+
+.home {
+    width: 100vw;
+    min-height: calc(100vh - 100px);
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+
+
+
+/* About-page */
+
+.about {
+    width: 100vw;
+    min-height: calc(100vh - 100px);
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px; 
+}
+
+
+
+/* Footer-page */
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 19px;
+  }
+
+  .contact-part {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+
+  /* Me-Page */
+
+
+  .me-part {
+    min-width: 100vw;
+    height: calc(100vh - 100px);
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .me-container {
+    width: 700px;
+    height: fit-content;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #me-general-txt {
+    font-size: 47px;
+    font-family: "Namdhinggo", serif;
+    font-weight: 500;
+  }
+
+
+
+
+   /* Work-Page */
+
+   .work-part {
+    min-width: 100vw;
+    min-height: calc(100vh - 100px);
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center; 
+   }
+
+   .work-container {
+    width: 900px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .proj-title {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+   }
+
+   #pr-tit-txt-1 {
+    font-size: 49px;
+   }
+
+   #pr-tit-txt-2 {
+    font-size: 16px;
+    color: #747474;
+    text-transform: uppercase;
+   }
+
+   .proj-description {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-direction: column;
+   }
+
+   #pr-des-txt-1 {
+    font-size: 24px;
+   }
+
+   #pr-des-txt-2 {
+    font-size: 20px;
+   }
+
+   .proj-link-btn {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 3px;
+   }
+
+   .proj-link-btn:hover {
+    color: #747474;
+    transition: 1s ease;
+    text-decoration:underline;
+   }
+
+   .img-of-project {
+    width: 520px;
+    height: 300px;
+    border-radius: 7px;
+    border: 5px solid black;
+    overflow: hidden;
+   }
+
+   .img-of-project img {
+    width: 100%;
+    height: 100%;
+   }
+
+   
+
+
+
+
+
+    /* Skills-Page */
+
+    .skills-part {
+       min-width: 100vw;
+    min-height: calc(100vh - 100px);
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+    }
+
+    .skills-container {
+        min-width: 700px;
+        width: fit-content;
+        min-height: 400px;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 25px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    #skill-logo-txt {
+        font-size: 38px;
+        margin-top: 45px;
+    }
+
+    .skill-definition {
+        width: fit-content;
+        height: 70px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill-text {
+        font-size: 21px;
+    }
+
+
+
+
+    /* Skills-Page */
+
+
+    .about-container {
+      width: 1100px;
+      min-height: 100px;
+      height: fit-content;
+      
+      display: flex;
+      justify-content: flex-start;
+      gap: 180px;
+      margin-top: 60px;
+      padding-left: 30px;
+    }
+
+    .about-me-part {
+      width: 500px;
+      min-height: 300px;
+      height: fit-content;
+      
+    }
+
+    #about-me-text {
+      font-size: 24px;
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      line-height: 35px;
+    }
+
+    .also-interesting {
+      width: 200px;
+      height: fit-content;
+      min-height: 300px;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+
+    #what-i-txt {
+      font-size: 26px;
+      margin-bottom: 10px;
+      color: #5b95cb ;
+    }
+
+
+
