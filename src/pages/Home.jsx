@@ -7,11 +7,11 @@ import Work from '../components/Work'
 const Home = () => {
   return (
     <div className='home'>
-       <Me />
-        <Hr />
+       {/* <Me />
+        <Hr /> */}
        <Work />
-        <Hr />
-       <Skills />
+        {/* <Hr />
+       <Skills /> */}
     </div>
   )
 }

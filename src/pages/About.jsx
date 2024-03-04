@@ -30,7 +30,7 @@ const About = () => {
       <div className='about-container'>
         <div className='about-me-part'>
           <p id='about-me-text'> 
-            My name is Vladislav, I am 16 years old, I was born in Kiev and started living in Germany since 2022. Since 7 years old I started to sit at the computer and since 12 years old I started to be interested in programming. Although I don't have much time because of my studies, but I continue to develop in this direction. I regularly do sports, go to the gym. Also I have my cat "Lucky". Thanks for stopping by my portfolio!👀
+            My name is Vladyslav, I am 16 years old, I was born in Kiev and started living in Germany since 2022. Since 7 years old I started to sit at the computer and since 12 years old I started to be interested in programming. Although I don't have much time because of my studies, but I continue to develop in this direction. I regularly do sports, go to the gym. Also I have my cat "Lucky". Thanks for stopping by my portfolio!👀
           </p>
         </div>
         <div className='also-interesting'>

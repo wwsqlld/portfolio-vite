@@ -45,6 +45,7 @@ const Footer = () => {
       viewport={{
         once: true
       }}
+      id="first-fr-txt"
       ><p>Created and built by Vlad 😛</p></motion.div>
       <motion.div
       initial="initial"

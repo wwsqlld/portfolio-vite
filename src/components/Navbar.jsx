@@ -2,31 +2,39 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { BsList } from "react-icons/bs";
 import { MdOutlineClose } from "react-icons/md";
+import { motion } from "framer-motion";
 
-import { CSSTransition } from 'react-transition-group';
 import { scroller } from 'react-scroll'
 
 
 const Navbar = () => {
 
-  //  const [isScrolled, setIsScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const [isVisible, setIsVisible] = useState(true);
 
 
-  //  useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 200) {
-  //       setIsScrolled(true);
-  //     } else {
-  //       setIsScrolled(false);
-  //     }
-  //   };
+  const show = {
+    x: 400,
+    display: "none",
+    transition: {
+      duration: 1,
+    }
+  };
+  
+  const hide = {
+    x: 0,
+    display: "flex",
+    transition: {
+      duration: 1,
+    }
+  };
 
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
+  const handleClick = () => {
+    setIsVisible(!isVisible)
+    setIsOpen(!isOpen)
+  }
+  
 
 
   const scrollTo = () => {
@@ -39,10 +47,21 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
+        <motion.div animate={isVisible ? show : hide} className='nav-cont-adap'>
+          <div className='adap-list'>
+            <NavLink to="/" onClick={() => handleClick()} className='nav-btn' style={{ textDecoration: 'none'}} >
+                <p>Home</p>
+            </NavLink>
+            <NavLink to="/about" onClick={() => handleClick()} className='nav-btn' style={{ textDecoration: 'none'}} >
+                <p>About</p>
+            </NavLink>
+          </div>
+        </motion.div>
         <div className='logo-cont'>
             <p id='logo-txt'>V. Bazchenko</p>
             <img src='https://cdn-icons-png.flaticon.com/128/12/12096.png' alt='' loading='lazy' width={35} />
         </div>
+
         <div className='nav-cont'>
             <NavLink to="/" className='nav-btn' style={{ textDecoration: 'none'}} >
                 <p>Home</p>
@@ -52,6 +71,14 @@ const Navbar = () => {
                 <p>About</p>
             </NavLink>
         </div>
+        
+        {!isOpen ? (
+         <BsList className='nav-list' size={40} onClick={() => handleClick()} /> 
+        ) : (
+          <MdOutlineClose className='nav-list' size={40} onClick={() => handleClick()}/>
+        )}
+        
+
     </div>
   )
 }
