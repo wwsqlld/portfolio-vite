@@ -28,7 +28,7 @@ const Me = () => {
       }}
       className='me-part'>
       <div className='me-container'>
-        <img src={batman} alt='' loading='lazy' width={260}/>
+        <img src={batman} alt='' width={260}/>
         <p id='me-general-txt'><span style={{color: '#5b95cb'}}>Hello!</span><br/> I'm Vlad, future full-stack programmer from Kiev.</p>
       </div>
     </motion.div>
