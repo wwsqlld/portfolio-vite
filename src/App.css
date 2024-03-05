@@ -1,38 +1,38 @@
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    overflow-y:scroll;
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    line-height: normal;
-  }
-  
-  img {
-    -webkit-user-select: none; /* для Webkit-браузеров (Chrome, Safari) */
-    -moz-user-select: none; /* для браузеров на основе Gecko (Firefox) */
-    -ms-user-select: none; /* для Internet Explorer */
-    user-select: none; /* стандартное свойство */
-  }
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y:scroll;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  line-height: normal;
+}
 
-  p {
-    margin: 0;
-  }
+img {
+  -webkit-user-select: none; /* для Webkit-браузеров (Chrome, Safari) */
+  -moz-user-select: none; /* для браузеров на основе Gecko (Firefox) */
+  -ms-user-select: none; /* для Internet Explorer */
+  user-select: none; /* стандартное свойство */
+}
 
-
-  .app {
-    max-width: 100vw;
-    overflow-x: hidden;
-  }
+p {
+  margin: 0;
+}
 
 
-  .hr-line {
-    width: 80vw;
-    height: 1px;
-    background-color: #b4b4b4;
-  }
+.app {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+
+.hr-line {
+  width: 80vw;
+  height: 1px;
+  background-color: #b4b4b4;
+}
 
 
 
@@ -45,105 +45,105 @@ body {
 
 
 .navbar {
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100px;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    gap: 200px;
-    align-items: center;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  gap: 200px;
+  align-items: center;
 }
 
 
 
 
 .logo-cont {
-    width: fit-content;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    color: black;
-    gap: 7px;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+  gap: 7px;
 }
 
 
 .nav-cont {
-    width: fit-content;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    gap: 50px;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  gap: 50px;
 }
 
 .nav-cont-adap {
-  top: 0px;
-  left: 0px;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;                                      ;
-  color: black;
-  gap: 10px;
-  background-color: white;
-  z-index: 56;
-  padding: 80px 0px 0px 30px;
-  display: none;
-  
+top: 0px;
+left: 0px;
+position: absolute;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;                                      ;
+color: black;
+gap: 10px;
+background-color: white;
+z-index: 56;
+padding: 80px 0px 0px 30px;
+display: none;
+
 }
 
 .adap-list {
-  width: 180px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  z-index: 57;
+width: 180px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+z-index: 57;
 }
 
 
 
 .nav-btn {
-    cursor: pointer;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    height: 100%;
-    color: black;
-    font-size: 23px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 100%;
+  color: black;
+  font-size: 23px;
 }
 
 .active {
-    color: #3e83fb;
-    transition: 0.3s ease-in;
+  color: #3e83fb;
+  transition: 0.3s ease-in;
 }
 
 .nav-btn p {
-    margin: 0;
+  margin: 0;
 }
 
 .nav-btn:hover {
-  color: #939393;
-  transition: 0.3s ease-out ;
+color: #939393;
+transition: 0.3s ease-out ;
 }
 
 #logo-txt {
-    font-size: 30px;
-    color: black;
-    user-select: none;
+  font-size: 30px;
+  color: black;
+  user-select: none;
 }
 
 .nav-list {
-  display: none;
+display: none;
 }
 
 
@@ -154,15 +154,15 @@ body {
 /* Home-page */
 
 .home {
-    width: 100vw;
-    min-height: calc(100vh - 100px);
-  height: fit-content;
-  background-color: white;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 10px;
+  width: 100vw;
+  min-height: calc(100vh - 100px);
+height: fit-content;
+background-color: white;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+align-items: center;
+padding-bottom: 10px;
 }
 
 
@@ -175,209 +175,209 @@ body {
 /* Footer-page */
 
 .footer {
-    width: 100%;
-    height: 150px;
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 19px;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 19px;
+}
+
+.contact-part {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#first-fr-txt {
+  width: 270px;
+}
+
+
+/* Me-Page */
+
+
+.me-part {
+  min-width: 100vw;
+  height: calc(100vh - 100px);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.me-container {
+  width: 700px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#me-general-txt {
+  font-size: 47px;
+  font-family: "Namdhinggo", serif;
+  font-weight: 500;
+}
+
+
+
+
+ /* Work-Page */
+
+ .work-part {
+  min-width: 100vw;
+  min-height: calc(100vh - 100px);
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center; 
+ }
+
+ .work-container {
+  width: 900px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .proj-title {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-direction: column;
+ }
+
+ #pr-tit-txt-1 {
+  font-size: 49px;
+ }
+
+ #pr-tit-txt-2 {
+  font-size: 16px;
+  color: #747474;
+  text-transform: uppercase;
+ }
+
+ .proj-description {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-direction: column;
+ }
+
+ #pr-des-txt-1 {
+  font-size: 24px;
+ }
+
+ #pr-des-txt-2 {
+  font-size: 20px;
+ }
+
+ .proj-link-btn {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  color: black;
+  gap: 3px;
+ }
+
+ .proj-link-btn:hover {
+  color: #747474;
+  transition: 1s ease;
+  text-decoration:underline;
+ }
+
+ .img-of-project {
+  width: 520px;
+  height: 300px;
+  border-radius: 7px;
+  border: 5px solid black;
+  overflow: hidden;
+  
+ }
+
+ .img-of-project img {
+  width: 100%;
+  height: 100%;
+ }
+
+ .wk-last-text {
+  font-size: 18px;
+ }
+
+ 
+
+
+
+
+
+  /* Skills-Page */
+
+  .skills-part {
+     min-width: 100vw;
+  min-height: calc(100vh - 100px);
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;  
   }
 
-  .contact-part {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+  .skills-container {
+      min-width: 700px;
+      width: fit-content;
+      min-height: 400px;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 25px;
+      gap: 15px;
+      margin-top: 20px;
   }
 
-  #first-fr-txt {
-    width: 270px;
+  #skill-logo-txt {
+      font-size: 38px;
+      margin-top: 45px;
   }
 
-
-  /* Me-Page */
-
-
-  .me-part {
-    min-width: 100vw;
-    height: calc(100vh - 100px);
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  .skill-definition {
+      width: fit-content;
+      height: fit-content;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
   }
 
-  .me-container {
-    width: 700px;
-    height: fit-content;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  img.skill-img1 {
+    content: url('https://skillicons.dev/icons?i=html,css,js,github,vercel,react,npm,mongodb,firebase,figma,bootstrap,sass');
   }
 
-  #me-general-txt {
-    font-size: 47px;
-    font-family: "Namdhinggo", serif;
-    font-weight: 500;
+  img.skill-img2 {
+    content: url('https://skillicons.dev/icons?i=webpack,vite,vitest,ts,ps,express,nodejs,git,py,php');
   }
 
+  img.skill-img3 {
+    content: url('https://skillicons.dev/icons?i=nextjs,graphql');
+  }
 
-
-
-   /* Work-Page */
-
-   .work-part {
-    min-width: 100vw;
-    min-height: calc(100vh - 100px);
-    height: fit-content;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center; 
-   }
-
-   .work-container {
-    width: 900px;
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   }
-
-   .proj-title {
-    width: fit-content;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-direction: column;
-   }
-
-   #pr-tit-txt-1 {
-    font-size: 49px;
-   }
-
-   #pr-tit-txt-2 {
-    font-size: 16px;
-    color: #747474;
-    text-transform: uppercase;
-   }
-
-   .proj-description {
-    width: 400px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 18px;
-    flex-direction: column;
-   }
-
-   #pr-des-txt-1 {
-    font-size: 24px;
-   }
-
-   #pr-des-txt-2 {
-    font-size: 20px;
-   }
-
-   .proj-link-btn {
-    width: fit-content;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    color: black;
-    gap: 3px;
-   }
-
-   .proj-link-btn:hover {
-    color: #747474;
-    transition: 1s ease;
-    text-decoration:underline;
-   }
-
-   .img-of-project {
-    width: 520px;
-    height: 300px;
-    border-radius: 7px;
-    border: 5px solid black;
-    overflow: hidden;
-    
-   }
-
-   .img-of-project img {
-    width: 100%;
-    height: 100%;
-   }
-
-   .wk-last-text {
-    font-size: 18px;
-   }
-
-   
-
-
-
-
-
-    /* Skills-Page */
-
-    .skills-part {
-       min-width: 100vw;
-    min-height: calc(100vh - 100px);
-    height: fit-content;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;  
-    }
-
-    .skills-container {
-        min-width: 700px;
-        width: fit-content;
-        min-height: 400px;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding-top: 25px;
-        gap: 15px;
-        margin-top: 20px;
-    }
-
-    #skill-logo-txt {
-        font-size: 38px;
-        margin-top: 45px;
-    }
-
-    .skill-definition {
-        width: fit-content;
-        height: fit-content;
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    img.skill-img1 {
-      content: url('https://skillicons.dev/icons?i=html,css,js,github,vercel,react,npm,mongodb,firebase,figma,bootstrap,sass');
-    }
-
-    img.skill-img2 {
-      content: url('https://skillicons.dev/icons?i=webpack,vite,vitest,ts,ps,express,nodejs,git,py,php');
-    }
-
-    img.skill-img3 {
-      content: url('https://skillicons.dev/icons?i=nextjs,graphql');
-    }
-
-    .skill-text {
-        font-size: 21px;
-    }
+  .skill-text {
+      font-size: 21px;
+  }
 
 
 
@@ -385,64 +385,252 @@ body {
 /* About-page */
 
 .about {
-    width: 100vw;
-    min-height: calc(100vh - 100px);
+  width: 100vw;
+  min-height: calc(100vh - 100px);
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px; 
+}
+
+  .about-container {
+    max-width: 1100px;
+    width: fit-content;
+    min-height: 100px;
     height: fit-content;
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 240px;
+    margin-top: 60px;
+    padding-left: 30px;
+  }
+
+  .about-me-part {
+    width: fit-content;
+    min-height: 300px;
+    height: fit-content;
+    
+  }
+
+  #about-me-text {
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 35px;
+  }
+
+  .also-interesting {
+    width: 200px;
+    height: fit-content;
+    min-height: 300px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    align-items: center;
-    padding-bottom: 10px; 
-}
+    gap: 20px;
+  }
 
-    .about-container {
-      width: fit-content;
-      min-height: 100px;
-      height: fit-content;
-      display: flex;
-      justify-content: center;
-      gap: 240px;
-      margin-top: 60px;
-      padding-left: 30px;
+
+  #what-i-txt {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #5b95cb ;
+  }
+
+  @media screen and (max-width: 1000px) {
+
+    .me-container {
+      width: 500px;
     }
 
-    .about-me-part {
-      width: fit-content;
-      min-height: 300px;
-      height: fit-content;
+    .me-container img {
+      width: 220px;
+    }
+
+    #me-general-txt {
+      font-size: 40px;
+    }
+  }
+
+
+  @media screen and (max-width: 800px) {
+    
+    .nav-cont {
+      display: none;
+    }
+
+    .nav-list {
+      display:flex;
+      margin-right: 10px;
+      z-index: 100;
+    }
+
+    #logo-txt {
+      font-size: 24px;
+    }
+
+    .logo-cont {
+      margin-left: 20px;
+    }
+
+    .logo-cont img {
+      width: 25px;
+    }
+
+    .navbar {
+      justify-content: space-between;
+      gap: 0px;
+    }
+
+    .nav-cont-adap {
+      display: flex;
+    }
+
+    .nav-btn {
+      height: 70px;
+    }
+
+    #first-fr-txt {
+      font-size: 18px;
+      width: 200px;
+    }
+
+
+    .me-container {
+      width: 400px;
+    }
+
+    .me-container img {
+      width: 180px;
+    }
+
+    #me-general-txt {
+      font-size: 30px;
+    }
+
+
+
+
+
+    
+
+  }
+
+
+
+
+  .al-int-txt {
+    color: black;
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
+  @media screen and (max-width: 1000px) {
+
+    
+
+    .me-container {
+      width: 500px;
       
+    }
+
+    .me-container img {
+      width: 220px;
+    }
+
+    #me-general-txt {
+      font-size: 40px;
+    }
+
+
+
+
+
+    .work-container {
+      width: 700px;
+      justify-content: center;
+    }
+
+    .proj-title {
+      width: 300px;
+    }
+
+    #pr-tit-txt-1 {
+      font-size: 46px;
+     }
+
+    #pr-tit-txt-2 {
+      font-size: 14px;
+    }
+
+    .proj-description {
+      width: 350px;
+      gap: 15px;
+     }
+
+     #pr-des-txt-1 {
+      font-size: 21px;
+     }
+  
+     #pr-des-txt-2 {
+      font-size: 18px;
+     }
+
+     .img-of-project {
+      width: 490px;
+      height: 270px;
+     }
+
+
+
+
+
+
+
+    img.skill-img1 {
+      content: url('https://skillicons.dev/icons?i=html,css,js,github,vercel,react,npm,mongodb,firebase,figma,bootstrap,sass&perline=8');
+      max-width: 400px;
+    }
+
+    img.skill-img2 {
+      content: url('https://skillicons.dev/icons?i=webpack,vite,vitest,ts,ps,express,nodejs,git,py,php&perline=8');
+      max-width: 400px;
+    }
+
+    img.skill-img3 {
+      content: url('https://skillicons.dev/icons?i=nextjs,graphql');
+      max-width: 400px;
+    }
+
+    
+
+
+
+
+    .about-container {
+      width: 700px;
+      gap: 110px;
     }
 
     #about-me-text {
-      font-size: 24px;
-      font-family: "Raleway", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      line-height: 35px;
+      width: 400px;
+      font-size: 19px;
     }
-
-    .also-interesting {
-      width: 200px;
-      height: fit-content;
-      min-height: 300px;
-      display: flex;
-      justify-content: flex-start;
-      flex-direction: column;
-      gap: 20px;
-    }
-
 
     #what-i-txt {
-      font-size: 26px;
-      margin-bottom: 10px;
-      color: #5b95cb ;
+      font-size: 22px;
     }
-
 
     .al-int-txt {
-      color: black;
-      font-size: 20px;
+      font-size: 17px;
     }
 
 
@@ -450,482 +638,376 @@ body {
 
 
 
-
-    @media screen and (max-width: 1000px) {
-
-      
-
-      .me-container {
-        width: 500px;
-        
-      }
-
-      .me-container img {
-        width: 220px;
-      }
-
-      #me-general-txt {
-        font-size: 40px;
-      }
+  }
 
 
-
-
-
-      .work-container {
-        width: 700px;
-        justify-content: center;
-      }
-
-      .proj-title {
-        width: 300px;
-      }
-
-      #pr-tit-txt-1 {
-        font-size: 46px;
-       }
-
-      #pr-tit-txt-2 {
-        font-size: 14px;
-      }
-
-      .proj-description {
-        width: 350px;
-        gap: 15px;
-       }
-
-       #pr-des-txt-1 {
-        font-size: 21px;
-       }
+  @media screen and (max-width: 750px) {
     
-       #pr-des-txt-2 {
-        font-size: 18px;
-       }
+    .nav-cont {
+      display: none;
+    }
 
-       .img-of-project {
-        width: 490px;
-        height: 270px;
-       }
+    .nav-list {
+      display:flex;
+      margin-right: 10px;
+      z-index: 100;
+    }
 
+    #logo-txt {
+      font-size: 24px;
+    }
 
+    .logo-cont {
+      margin-left: 20px;
+    }
 
+    .logo-cont img {
+      width: 25px;
+    }
 
+    .navbar {
+      justify-content: space-between;
+      gap: 0px;
+    }
 
+    .nav-cont-adap {
+      display: flex;
+    }
 
+    .nav-btn {
+      height: 70px;
+    }
 
-      img.skill-img1 {
-        content: url('https://skillicons.dev/icons?i=html,css,js,github,vercel,react,npm,mongodb,firebase,figma,bootstrap,sass&perline=8');
-        max-width: 400px;
-      }
-  
-      img.skill-img2 {
-        content: url('https://skillicons.dev/icons?i=webpack,vite,vitest,ts,ps,express,nodejs,git,py,php&perline=8');
-        max-width: 400px;
-      }
-  
-      img.skill-img3 {
-        content: url('https://skillicons.dev/icons?i=nextjs,graphql');
-        max-width: 400px;
-      }
-
-      
-
-
-
-
-      .about-container {
-        width: 700px;
-        gap: 110px;
-      }
-
-      #about-me-text {
-        width: 400px;
-        font-size: 19px;
-      }
-
-      #what-i-txt {
-        font-size: 22px;
-      }
-
-      .al-int-txt {
-        font-size: 17px;
-      }
-
-
-
-
-
-
+    #first-fr-txt {
+      font-size: 18px;
+      width: 200px;
     }
 
 
-    @media screen and (max-width: 750px) {
-      
-      .nav-cont {
-        display: none;
-      }
 
-      .nav-list {
-        display:flex;
-        margin-right: 10px;
-        z-index: 100;
-      }
-
-      #logo-txt {
-        font-size: 24px;
-      }
-
-      .logo-cont {
-        margin-left: 20px;
-      }
-
-      .logo-cont img {
-        width: 25px;
-      }
-
-      .navbar {
-        justify-content: space-between;
-        gap: 0px;
-      }
-
-      .nav-cont-adap {
-        display: flex;
-      }
-
-      .nav-btn {
-        height: 70px;
-      }
-
-      #first-fr-txt {
-        font-size: 18px;
-        width: 200px;
-      }
+    .me-part {
+      height: 80vh;
+    }
 
 
+    .me-container {
+      width: 400px;
+    }
 
-      .me-part {
-        height: 80vh;
-      }
+    .me-container img {
+      width: 180px;
+    }
 
-
-      .me-container {
-        width: 400px;
-      }
-
-      .me-container img {
-        width: 180px;
-      }
-
-      #me-general-txt {
-        font-size: 30px;
-      }
+    #me-general-txt {
+      font-size: 30px;
+    }
 
 
 
 
-      .work-part {
-        min-height: 85vh;
-      }
+    .work-part {
+      min-height: 85vh;
+    }
 
-      .work-container {
-        width: 500px;
-        justify-content: center;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 40px;
-        margin-left: 20px;
-      }
+    .work-container {
+      width: 500px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+      margin-left: 20px;
+    }
 
-      .proj-title {
-        width: fit-content;
-        gap: 10px;
-      }
+    .proj-title {
+      width: fit-content;
+      gap: 10px;
+    }
 
-      #pr-tit-txt-1 {
-        font-size: 43px;
-       }
+    #pr-tit-txt-1 {
+      font-size: 43px;
+     }
 
-      #pr-tit-txt-2 {
-        font-size: 12px;
-      }
+    #pr-tit-txt-2 {
+      font-size: 12px;
+    }
 
-      .proj-description {
-        width: 470px;
-        gap: 15px;
-        gap: 7px;
-       }
+    .proj-description {
+      width: 470px;
+      gap: 15px;
+      gap: 7px;
+     }
 
-       #pr-des-txt-1 {
-        font-size: 21px;
-       }
+     #pr-des-txt-1 {
+      font-size: 21px;
+     }
+  
+     #pr-des-txt-2 {
+      font-size: 18px;
+     }
+
+     .img-of-project {
+      width: 440px;
+      height: 220px;
+     }
+
+     .wk-last-text {
+      font-size: 14px;
+     }
+
+
+
+     #skill-logo-txt {
+      font-size: 31px;
+     }
+
+
+     .skills-container {
+      min-width: 400px;
+      padding: 0px 15px 0px 15px;
+     }
+
+     img.skill-img1 {
+      content: url('https://skillicons.dev/icons?i=html,css,js,github,vercel,react,npm,mongodb,firebase,figma,bootstrap,sass&perline=6');
+      max-width: 300px;
+    }
+
+    img.skill-img2 {
+      content: url('https://skillicons.dev/icons?i=webpack,vite,vitest,ts,ps,express,nodejs,git,py,php&perline=6');
+      max-width: 300px;
+    }
+
+    img.skill-img3 {
+      content: url('https://skillicons.dev/icons?i=nextjs,graphql');
+      max-width: 300px;
+    }
+
+    .skill-text {
+      font-size: 18px;
+    }
+
     
-       #pr-des-txt-2 {
-        font-size: 18px;
-       }
-
-       .img-of-project {
-        width: 440px;
-        height: 220px;
-       }
-
-       .wk-last-text {
-        font-size: 14px;
-       }
-
-
-
-       #skill-logo-txt {
-        font-size: 31px;
-       }
-
-
-       .skills-container {
-        min-width: 400px;
-        padding: 0px 15px 0px 15px;
-       }
-
-       img.skill-img1 {
-        content: url('https://skillicons.dev/icons?i=html,css,js,github,vercel,react,npm,mongodb,firebase,figma,bootstrap,sass&perline=6');
-        max-width: 300px;
-      }
-  
-      img.skill-img2 {
-        content: url('https://skillicons.dev/icons?i=webpack,vite,vitest,ts,ps,express,nodejs,git,py,php&perline=6');
-        max-width: 300px;
-      }
-  
-      img.skill-img3 {
-        content: url('https://skillicons.dev/icons?i=nextjs,graphql');
-        max-width: 300px;
-      }
-
-      .skill-text {
-        font-size: 18px;
-      }
-
-      
 
 
 
 
-      .about-container {
-        width: fit-content;
-        gap: 40px;
-        flex-direction: column;
-        padding-left: 5px;
-      }
+    .about-container {
+      width: fit-content;
+      gap: 40px;
+      flex-direction: column;
+      padding-left: 5px;
+    }
 
-      #about-me-text {
-        width: 470px;
-        font-size: 19px;
-      }
+    #about-me-text {
+      width: 470px;
+      font-size: 19px;
+    }
 
-      #what-i-txt {
-        font-size: 18px;
-      }
+    #what-i-txt {
+      font-size: 18px;
+    }
 
-      .al-int-txt {
-        font-size: 16px;
-      }
-
-
-
-
-      
-  
+    .al-int-txt {
+      font-size: 16px;
     }
 
 
 
 
-    @media screen and (max-width: 550px) {
-      .work-part {
-        min-height: 85vh;
-        margin-left: 20px;
-      }
-
-      .work-container {
-        width: 400px;
-        justify-content: center;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 0px;
-        gap: 40px;
-      }
-
-      .proj-title {
-        width: fit-content;
-        gap: 10px;
-      }
-
-      #pr-tit-txt-1 {
-        font-size: 36px;
-       }
-
-      #pr-tit-txt-2 {
-        font-size: 10px;
-      }
-
-      .proj-description {
-        width: 470px;
-        gap: 15px;
-        gap: 7px;
-       }
-
-       #pr-des-txt-1 {
-        font-size: 18px;
-       }
     
-       #pr-des-txt-2 {
-        font-size: 16px;
-       }
 
-       .img-of-project {
-        width: 390px;
-        height: 220px;
-       }
-
-       .wk-last-text {
-        font-size: 12px;
-       }
+  }
 
 
 
 
-
-
-
-       .skills-container {
-        min-width: 350px;
-        padding: 0px 10px 0px 10px;
-       }
-
-       img.skill-img1 {
-        content: url('https://skillicons.dev/icons?i=html,css,js,github,vercel,react,npm,mongodb,firebase,figma,bootstrap,sass&perline=6');
-        max-width: 250px;
-      }
-  
-      img.skill-img2 {
-        content: url('https://skillicons.dev/icons?i=webpack,vite,vitest,ts,ps,express,nodejs,git,py,php&perline=6');
-        max-width: 250px;
-      }
-  
-      img.skill-img3 {
-        content: url('https://skillicons.dev/icons?i=nextjs,graphql');
-        max-width: 250px;
-      }
-
-      .skill-text {
-        font-size: 15px;
-      }
-
-
-
-
-
-
-
-
-      .about-container {
-        padding-left: 5px;
-        gap: 40px;
-        flex-direction: column;
-      }
-
-      #about-me-text {
-        width: 390px;
-        font-size: 18px;
-      }
-
-      #what-i-txt {
-        font-size: 17px;
-      }
-
-      .al-int-txt {
-        font-size: 15px;
-      }
-
-
-
+  @media screen and (max-width: 550px) {
+    .work-part {
+      min-height: 85vh;
+      margin-left: 20px;
     }
-  
 
-
-    @media screen and (max-width: 450px) {
-      .work-part {
-        min-height: 85vh;
-        margin-left: 0px;
-      }
-
-      .work-container {
-        width: 300px;
-        justify-content: center;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 0px;
-        gap: 30px;
-      }
-
-      .proj-title {
-        width: fit-content;
-        gap: 10px;
-      }
-
-      #pr-tit-txt-1 {
-        font-size: 32px;
-       }
-
-      #pr-tit-txt-2 {
-        font-size: 8px;
-      }
-
-      .proj-description {
-        width: 350px;
-        gap: 15px;
-        gap: 7px;
-       }
-
-       #pr-des-txt-1 {
-        font-size: 16px;
-       }
-    
-       #pr-des-txt-2 {
-        font-size: 14px;
-       }
-
-       .img-of-project {
-        width: 320px;
-        height: 170px;
-       }
-
-       .wk-last-text {
-        font-size: 12px;
-       }
-
-
-
-       .skill-text {
-        font-size: 13px;
-      }
-
-
-
-      .about-container {
-        gap: 30px;
-        flex-direction: column;
-      }
-
-      #about-me-text {
-        width: 310px;
-        font-size: 17px;
-      }
-
-      #what-i-txt {
-        font-size: 16px;
-      }
-
-      .al-int-txt {
-        font-size: 14px;
-      }
+    .work-container {
+      width: 400px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 0px;
+      gap: 40px;
     }
+
+    .proj-title {
+      width: fit-content;
+      gap: 10px;
+    }
+
+    #pr-tit-txt-1 {
+      font-size: 36px;
+     }
+
+    #pr-tit-txt-2 {
+      font-size: 10px;
+    }
+
+    .proj-description {
+      width: 470px;
+      gap: 15px;
+      gap: 7px;
+     }
+
+     #pr-des-txt-1 {
+      font-size: 18px;
+     }
   
+     #pr-des-txt-2 {
+      font-size: 16px;
+     }
+
+     .img-of-project {
+      width: 390px;
+      height: 220px;
+     }
+
+     .wk-last-text {
+      font-size: 12px;
+     }
+
+
+
+
+
+
+
+     .skills-container {
+      min-width: 350px;
+      padding: 0px 10px 0px 10px;
+     }
+
+     img.skill-img1 {
+      content: url('https://skillicons.dev/icons?i=html,css,js,github,vercel,react,npm,mongodb,firebase,figma,bootstrap,sass&perline=6');
+      max-width: 250px;
+    }
+
+    img.skill-img2 {
+      content: url('https://skillicons.dev/icons?i=webpack,vite,vitest,ts,ps,express,nodejs,git,py,php&perline=6');
+      max-width: 250px;
+    }
+
+    img.skill-img3 {
+      content: url('https://skillicons.dev/icons?i=nextjs,graphql');
+      max-width: 250px;
+    }
+
+    .skill-text {
+      font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+    .about-container {
+      padding-left: 5px;
+      gap: 40px;
+      flex-direction: column;
+    }
+
+    #about-me-text {
+      width: 390px;
+      font-size: 18px;
+    }
+
+    #what-i-txt {
+      font-size: 17px;
+    }
+
+    .al-int-txt {
+      font-size: 15px;
+    }
+
+
+
+  }
+
+
+
+  @media screen and (max-width: 450px) {
+    .work-part {
+      min-height: 85vh;
+      margin-left: 0px;
+    }
+
+    .work-container {
+      width: 300px;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 0px;
+      gap: 30px;
+    }
+
+    .proj-title {
+      width: fit-content;
+      gap: 10px;
+    }
+
+    #pr-tit-txt-1 {
+      font-size: 32px;
+     }
+
+    #pr-tit-txt-2 {
+      font-size: 8px;
+    }
+
+    .proj-description {
+      width: 350px;
+      gap: 15px;
+      gap: 7px;
+     }
+
+     #pr-des-txt-1 {
+      font-size: 16px;
+     }
+  
+     #pr-des-txt-2 {
+      font-size: 14px;
+     }
+
+     .img-of-project {
+      width: 320px;
+      height: 170px;
+     }
+
+     .wk-last-text {
+      font-size: 12px;
+     }
+
+
+
+     .skill-text {
+      font-size: 13px;
+    }
+
+
+
+    .about-container {
+      gap: 30px;
+      flex-direction: column;
+    }
+
+    #about-me-text {
+      width: 310px;
+      font-size: 17px;
+    }
+
+    #what-i-txt {
+      font-size: 16px;
+    }
+
+    .al-int-txt {
+      font-size: 14px;
+    }
+  }
+
