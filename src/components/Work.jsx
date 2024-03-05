@@ -50,7 +50,7 @@ const Work = () => {
       <div className='img-of-project'>
         <img src={cards} alt=""  loading='lazy'/>
       </div>
-      <p style={{ fontSize: '18px' }}>(Probably would have been more if I'd had the time.)</p>
+      <p className='wk-last-text'>(Probably would have been more if I'd had the time.)</p>
     </motion.div>
   )
 }

@@ -38,10 +38,10 @@ const About = () => {
           <a 
           href='https://open.spotify.com/user/y0pcv4d0rd9sfecrva3010dfm?si=DO4HaQP-QMO7tZzec6MGGA' 
           target="_blank" 
-          style={{ color: 'black', fontSize: '20px' }}
+          className='al-int-txt'
           >Listen to music</a>
-          <p style={{  fontSize: '20px' }}>Taking pictures of my cat</p>
-          <p style={{  fontSize: '20px' }}>Watch movies</p>
+          <p className='al-int-txt'>Taking pictures of my cat</p>
+          <p className='al-int-txt'>Watch movies</p>
         </div>
       </div>
       

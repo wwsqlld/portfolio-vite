@@ -11,14 +11,14 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <>
+    <div className='app'>
     <Navbar />
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
+      <Route path='/about' element={<About />} /> 
     </Routes>
-    {/* <Footer /> */}
-    </>
+    <Footer />
+    </div>
   )
 }
 
