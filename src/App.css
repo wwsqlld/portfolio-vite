@@ -95,7 +95,6 @@ gap: 10px;
 background-color: white;
 z-index: 56;
 padding: 80px 0px 0px 30px;
-display: none;
 
 }
 
@@ -442,6 +441,11 @@ padding-bottom: 10px;
 
   @media screen and (max-width: 1000px) {
 
+    .nav-btn:hover {
+      color: #3e83fb;
+      transition: 0.3s ease-in;
+    }
+
     .me-container {
       width: 500px;
     }
@@ -458,45 +462,11 @@ padding-bottom: 10px;
 
   @media screen and (max-width: 800px) {
     
-    .nav-cont {
-      display: none;
+    .nav-btn:hover {
+      color: #3e83fb;
+      transition: 0.3s ease-in;
     }
 
-    .nav-list {
-      display:flex;
-      margin-right: 10px;
-      z-index: 100;
-    }
-
-    #logo-txt {
-      font-size: 24px;
-    }
-
-    .logo-cont {
-      margin-left: 20px;
-    }
-
-    .logo-cont img {
-      width: 25px;
-    }
-
-    .navbar {
-      justify-content: space-between;
-      gap: 0px;
-    }
-
-    .nav-cont-adap {
-      display: flex;
-    }
-
-    .nav-btn {
-      height: 70px;
-    }
-
-    #first-fr-txt {
-      font-size: 18px;
-      width: 200px;
-    }
 
 
     .me-container {

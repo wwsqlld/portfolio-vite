@@ -1,37 +1,38 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { BsList } from "react-icons/bs";
 import { MdOutlineClose } from "react-icons/md";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
-import { scroller } from 'react-scroll'
+import { scroller } from 'react-scroll';
 
 
 const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  const [isVisible, setIsVisible] = useState(true);
 
-
-  const show = {
-    x: 400,
-    display: "none",
-    transition: {
-      duration: 1,
-    }
-  };
   
-  const hide = {
-    x: 0,
-    display: "flex",
-    transition: {
-      duration: 1,
+  const menuVars = {
+    initial: {
+      x: window.innerWidth,
+    },
+    animate: {
+      x: 0,
+      transition: {
+        duration: 1.1,
+      }
+    },
+    exit: {
+      x: window.innerWidth,
+      transition: {
+        duration: 0.7,
+      }
     }
-  };
+  }
+
 
   const handleClick = () => {
-    setIsVisible(!isVisible)
     setIsOpen(!isOpen)
   }
   
@@ -47,7 +48,15 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-        <motion.div animate={isVisible ? show : hide} className='nav-cont-adap'>
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+         variants={menuVars}
+         initial="initial"
+         animate="animate"
+         exit="exit"
+         className='nav-cont-adap'
+         >
           <div className='adap-list'>
             <NavLink to="/" onClick={() => handleClick()} className='nav-btn' style={{ textDecoration: 'none'}} >
                 <p>Home</p>
@@ -57,6 +66,10 @@ const Navbar = () => {
             </NavLink>
           </div>
         </motion.div>
+      )}
+      </AnimatePresence>
+      
+        
         <div className='logo-cont'>
             <p id='logo-txt'>V. Bazchenko</p>
             <img src='https://cdn-icons-png.flaticon.com/128/12/12096.png' alt='' loading='lazy' width={35} />
