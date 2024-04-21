@@ -490,23 +490,14 @@ padding-bottom: 10px;
     user-select: none;
   }
 
-  #btn-room {
+  .btn-room {
     width: 90px;
     height: 30px;
     background-color: #fff;
     font-size: 16px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
     border-radius: 5px;
     cursor: pointer;
   }
-
-  #btn-room:hover {
-    box-shadow: 0 2px 4px #0003;
-  }
-
 
   .memory {
     width: 380px;

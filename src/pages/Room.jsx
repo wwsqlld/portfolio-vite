@@ -37,7 +37,7 @@ const Room = () => {
         {!cookies.token  ? (
             <form onSubmit={checkPassword} className="secret-room-auth">
                 <input type="text" placeholder='Password please🤫' value={password} onChange={handleChange} id="input-room"></input>
-                <button type="submit" id="btn-room">Submit</button>
+                <button type="submit" className="btn-room">Submit</button>
             </form>
         ) : (
             <div className='memory'>
