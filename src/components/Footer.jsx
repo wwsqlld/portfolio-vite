@@ -43,7 +43,7 @@ const Footer = () => {
       whileInView="animate"
       variants={fadeInVarience1}
       viewport={{
-        once: true
+        once: false
       }}
       id="first-fr-txt"
       ><p>Created and built by Vlad 😛</p></motion.div>
@@ -52,7 +52,7 @@ const Footer = () => {
       whileInView="animate"
       variants={fadeInVarience2}
       viewport={{
-        once: true
+        once: false
       }}
        className='contact-part'>
         <a target="_blank" href='https://www.instagram.com/wwsqlld13/'>

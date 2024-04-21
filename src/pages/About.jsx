@@ -1,7 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const About = () => {
+
+  const navigate = useNavigate()
+  
 
   const fadeInVarience = {
     initial: {
@@ -30,18 +34,18 @@ const About = () => {
       <div className='about-container'>
         <div className='about-me-part'>
           <p id='about-me-text'> 
-            My name is Vlad, I'm from Kyiv. Programming, language learning, gym. Living life👀
+            My name is Vlad, I'm from Kyiv. Programming, language learning, Gym. Living life👀
           </p>
         </div>
         <div className='also-interesting'>
-          <p id='what-i-txt'>What I like</p>
+          <p id='what-i-txt'>Attachments</p>
           <a 
           href='https://open.spotify.com/user/y0pcv4d0rd9sfecrva3010dfm?si=DO4HaQP-QMO7tZzec6MGGA' 
           target="_blank" 
           className='al-int-txt'
-          >Listen to music</a>
-          <p className='al-int-txt'>Taking pictures of my cat</p>
-          <p className='al-int-txt'>Watch movies</p>
+          >My playlist</a>
+          <a className='al-int-txt' onClick={(e) => {navigate("/heart")} }>Heart</a>
+         
         </div>
       </div>
       
