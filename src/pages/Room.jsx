@@ -35,10 +35,10 @@ const Room = () => {
   return (
     <div className='room'>
         {!cookies.token  ? (
-            <form onSubmit={checkPassword} className="secret-room-auth">
+            <div className="secret-room-auth">
                 <input type="text" placeholder='Password please🤫' value={password} onChange={handleChange} id="input-room"></input>
-                <button type="submit" className="btn-room">Submit</button>
-            </form>
+                <button onClick={checkPassword} className="btn-room">Submit</button>
+            </div>
         ) : (
             <div className='memory'>
                 <div className='img-of-liza'>
