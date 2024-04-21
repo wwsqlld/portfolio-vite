@@ -34,7 +34,7 @@ const About = () => {
       <div className='about-container'>
         <div className='about-me-part'>
           <p id='about-me-text'> 
-            My name is Vlad, I'm from Kyiv. Programming, language learning, Gym. Living life👀
+            Programming, language learning, Gym. Living life👀
           </p>
         </div>
         <div className='also-interesting'>
