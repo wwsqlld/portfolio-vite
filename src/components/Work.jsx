@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoIosArrowRoundForward } from "react-icons/io";
-import cards from '../assets/cards.png';
+import scrin from '../assets/scrin.png';
 import { delay, motion } from 'framer-motion';
 
 const Work = () => {
@@ -48,7 +48,7 @@ const Work = () => {
         </div>
       </div>
       <div className='img-of-project'>
-        <img src={cards} alt=""  loading='lazy'/>
+        <img src={scrin} alt=""  loading='lazy'/>
       </div>
       <p className='wk-last-text'>(Probably would have been more if I'd had the time.)</p>
     </motion.div>
